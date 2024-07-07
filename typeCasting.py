@@ -1,3 +1,5 @@
+## Typecasting (or type conversion) refers to the process of converting a variable from one data type to another. 
+## This is useful when you want to perform operations that require a different type of data than the one you currently have.
 x = 5
 y = float(x)
 print(y)  # Output: 5.0
