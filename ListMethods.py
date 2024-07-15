@@ -15,3 +15,14 @@ list2 = [1,7,3,4,6,0,2]
 print(list2)
 list2.sort(reverse=True)
 print("Descending Sorted List",list2)
+
+# Reverse method: Reverse the elements of the list
+list3 = [1,2,3,4,5,6]
+list3.reverse()
+print("Reversed List: ",list3)
+
+# Insert method : Element insertion at specific Index
+list4 = [1,2,3,4,5,6]
+list4.insert(1,7)
+print("After Insertion List:",list4)
+
