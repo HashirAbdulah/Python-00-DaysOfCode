@@ -8,11 +8,12 @@ print(s.lower())  # Output: hello, python!
 s = "hello, world!"
 print(s.capitalize())  # Output: Hello, world!
 
-#
+#Remove leading and trailing whitespace
 s = "   hello, world!   "
 print(s.strip())    # Output: "hello, world!"
-print(s.lstrip())   # Output: "hello, world!   "
-print(s.rstrip())   # Output: "   hello, world!"
+
+print(s.lstrip())   # Output: "hello, world!   "  removes left whiteSpaces
+print(s.rstrip())   # Output: "   hello, world!"  removes right whiteSpaces
 
 
 # Replace a substring
