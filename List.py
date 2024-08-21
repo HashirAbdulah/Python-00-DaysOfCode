@@ -8,7 +8,7 @@ print(type(list))
 oddList = [x for x in range(10) if x % 2 != 0]
 print(oddList)
 
-# Create a list of numbers from 1 to 50 that are divisible by 5.
+# Create a list of numbers from 1 to 10 that are divisible by 5.
 divisibleByFive = [x for x in range(10) if x % 5 == 0]
 print(divisibleByFive)
 
