@@ -15,7 +15,7 @@ def fibonacciSequence (number):
             print("Incorrect input,Input Number Greater than 0")
         elif (number == 0):
             return 0
-        elif(number == 1 or number == 2):
+        elif(number == 1):
                 return 1
         else:
             return fibonacciSequence(number-1) + fibonacciSequence(number-2)
