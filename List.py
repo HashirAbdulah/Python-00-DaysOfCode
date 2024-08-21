@@ -5,8 +5,8 @@ print(type(list))
 # list Comprehension\
 # Question 1
 # Create a list of the first 10 odd numbers using list comprehension.
-square = [x for x in range(10) if x % 2 != 0]
-print(square)
+oddList = [x for x in range(10) if x % 2 != 0]
+print(oddList)
 
 # Create a list of numbers from 1 to 50 that are divisible by 5.
 divisibleByFive = [x for x in range(10) if x % 5 == 0]
