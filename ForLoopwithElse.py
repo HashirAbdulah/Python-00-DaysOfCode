@@ -19,3 +19,4 @@ for i in range(3):
     print(i)
 else:
     print("In Else Statment")  ,"""This wouldn't run because the loop condition is statisfying, But if the range is equal to the condition else block will execute"""
+
