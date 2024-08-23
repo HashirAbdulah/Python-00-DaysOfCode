@@ -14,3 +14,19 @@ else:
     print("Operation successful.")
 finally:
     print("Execution completed.")
+
+def addition ():
+    try:
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        result = num1 + num2
+        print("Addition:", result)
+        return result
+     
+    except ValueError:
+        print("Error: Invalid input. Please enter numbers.")
+        return None
+    finally:
+        print("Addition operation completed.")
+
+addition()
