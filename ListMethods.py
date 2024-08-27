@@ -26,3 +26,20 @@ list4 = [1,2,3,4,5,6]
 list4.insert(1,7)
 print("After Insertion List:",list4)
 
+# Copy Methods Of list:
+# ======>>
+
+#list Copy Method
+list5= ["apple", "banana", "cherry"]
+list6 = list5.copy()
+print(list6)
+
+#Use the list() method
+thislist = [1,2,5,7,9,0]
+mylist = list(thislist)
+print(mylist)
+
+# Use the slice Operator
+list7 = ["apple", "banana", "cherry"]
+list8 = list7[:]
+print(list8)
