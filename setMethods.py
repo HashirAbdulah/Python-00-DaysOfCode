@@ -1,6 +1,11 @@
 set1 = {1,2,3,4,6}
 set2 = {1,7,8,5,6}
 
+# set Add Method:
+set1 = {1,2,3,4,6}
+set1.add(7)
+print(set1)
+
 print(set1.union(set2))
 print(set1.intersection(set2))
 set1.update(set2)
