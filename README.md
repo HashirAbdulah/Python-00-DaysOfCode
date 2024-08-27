@@ -38,11 +38,12 @@ To get started with this repository, follow these steps:
  ## Topics Covered
 
   This repository covers a wide range of Python topics, including but not limited to:
-    Python Basics (Variables, Data Types, Operators)
-    Control Flow (Loops, Conditionals)
-    Functions and Modules
-    File Handling
-    Exception Handling
-    Object-Oriented Programming (Classes, Inheritance, Polymorphism)
-    Data Structures (Lists, Dictionaries, Sets, Tuples)
-    Libraries and Frameworks (NumPy, Pandas, Flask, Django, etc.)
+  
+   - Python Basics (Variables, Data Types, Operators)
+   - Control Flow (Loops, Conditionals)
+   - Functions and Modules
+   - File Handling
+   - Exception Handling
+   - Object-Oriented Programming (Classes, Inheritance, Polymorphism)
+   -  Data Structures (Lists, Dictionaries, Sets, Tuples)
+   - Libraries and Frameworks (NumPy, Pandas, Flask, Django, etc.)
