@@ -28,6 +28,9 @@ car =	{
 # Adding Method 1
 car["color"] = "red"
 print(car)
+car.clear() # Clear the list
+print(car) # Prints the Empty Dictionary
+
 
 
 x = {'type' : 'fruit', 'name' : 'apple'}
