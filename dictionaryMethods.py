@@ -10,6 +10,16 @@ info2 = {
     "Education": "BSCS",
     "Skills": ["Python", "JavaScript", "C++"],
 }
+#  Adding Method
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car["color"] = "red"
+
+print(car)
 
 info.update(info2)
 print(info) 
