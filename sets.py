@@ -1,4 +1,4 @@
-# Sets in Python is ( Well defined objects ){Do not take repeated values} it is created by "{}" curly brackets
+# Sets in Python is ( Well defined objects ){Do not take repeated values} it is created by "{}" curly brackets as Dictionarie..
 # For Example {2,5,6,6,6,7,8,9,0,0,1,5}
 # output will be = {0, 1, 2, 5, 6, 7, 8, 9}
 # It Doesnt maintain the order
