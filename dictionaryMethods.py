@@ -39,3 +39,10 @@ x.update({'color' : 'green'})
 print(x)
 # ========================================
 
+# Looping in Dictionary:
+Dictionary1 = {'type' : 'fruit', 'name' : 'apple'}
+for y in Dictionary1:
+  print(y)  #Print keys of the dictionary
+
+for y in Dictionary1.values():
+  print(y) #Print the values of Dictionary's Keys
