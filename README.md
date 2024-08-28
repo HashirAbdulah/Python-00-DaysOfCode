@@ -9,7 +9,7 @@ Welcome to the Python Learning Repository! This repository is designed to help b
 - [Installation](#installation)
 - [Usage](#usage)
 - [Topics Covered](#topics-covered)
-- 
+
 ## Introduction
 
 Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in web development, data science, machine learning, automation, and many other fields. This repository contains various Python scripts, tutorials, and exercises to help you master Python step-by-step.
@@ -25,7 +25,7 @@ If you don't have Python installed, you can download it from the official websit
 
 ## Installation/Cloning
 
-To get started with this repository, follow these steps:
+To get started with this repository, follow this steps:
 
 **Clone the Repository**:
 
