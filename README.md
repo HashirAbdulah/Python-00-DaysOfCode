@@ -6,7 +6,7 @@ Welcome to the Python Learning Repository! This repository is designed to help b
 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [Installation](Installation/Cloning)
 - [Topics Covered](#topics-covered)
 
 ## Introduction
