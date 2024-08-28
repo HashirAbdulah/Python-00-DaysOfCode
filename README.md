@@ -6,7 +6,7 @@ Welcome to the Python Learning Repository! This repository is designed to help b
 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [Installation](Installation/Cloning)
+- [Installation](Installation)
 - [Topics Covered](#topics-covered)
 
 ## Introduction
@@ -22,7 +22,7 @@ Before you begin, make sure you have the following installed on your computer:
 
 If you don't have Python installed, you can download it from the official website: [Python Downloads](https://www.python.org/downloads/).
 
-## Installation/Cloning
+## Installation
 
 To get started with this repository, follow this steps:
 
