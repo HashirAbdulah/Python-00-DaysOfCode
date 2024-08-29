@@ -2,9 +2,19 @@
 
 with open("fileHandlingMethods\sfile.txt", 'r') as f:
   # Move to the 10th byte in the file
-  f.seek(10)
+  f.seek(12)
 
-  # Read the next 5 bytes
-  data = f.read(5)
-  print(data)
+  print(f"Point where file is seeked:{f.tell()}")
   
+  data = f.read(7)
+  print("Data is Read at: ",data)
+  
+
+# Truncate Method is used for specifing Size of the file
+
+#   with open('sample.txt', 'w') as f:
+#     f.write('Hello World!')
+#     f.truncate(5)
+
+# with open('sample.txt', 'r') as f:
+#   print(f.read())
