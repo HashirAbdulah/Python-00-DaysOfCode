@@ -15,6 +15,7 @@ except:
 
 
 
+# Write File 
 try:
    #uses "with" keyword with Write file for excluding fileclose method
    with open("fileHandlingMethods\Writefile.txt","w") as g:
