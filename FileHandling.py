@@ -16,6 +16,10 @@ f = open("file.txt","w") # Write mode will remove the previous data 'overwrite t
 text = f.write("Hello World! Chnages to Naya Pakistan")
 f.close()
 
+f = open("file.txt","w") # Write mode will remove the previous data 'overwrite the file' ("you cant read the file at the writing stage")
+text = f.write("Hello World! Chnages to Naya Pakistan")
+f.close()
+
 
 # Appending a file
 f = open("file.txt","at")
