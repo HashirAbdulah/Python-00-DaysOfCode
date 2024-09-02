@@ -25,3 +25,13 @@ sentence = "List comprehensions are cool!"
 vowels = "aeiouAEIOU"
 res = [char for char in sentence if char in vowels]
 print(res)
+
+#list creation with users values:
+n = int(input("Enter the size of the list: "))
+
+my_list = []
+for i in range(n):
+    element = input(f"Enter element {i+1}: ")
+    my_list.append(element)
+
+print("Your list is:", my_list)
