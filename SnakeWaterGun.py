@@ -11,11 +11,10 @@ elif choice == 2 and computer == 3:
 elif choice == 3 and computer == 1:
     print("You Win (Choosed: Gun)! Gun shoots snake.")
 elif choice == 1 and computer == 3:
-    print("You Lose! Gun shoots snake.")
+    print("You Lose Computer Wins! Gun shoots snake.")
 elif choice == 2 and computer == 1:
-    print("You Lose! Snake drinks water.")
+    print("You Lose Computer Wins! Snake drinks water.")
 elif choice == 3 and computer == 2:
-    print("You Lose! Water rusts gun.")
+    print("You Lose Computer Wins! Water rusts gun.")
 else:
     print("Invalid input! Please enter 1, 2, or 3.")
-
