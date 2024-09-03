@@ -30,5 +30,4 @@ person.set_age(30)
 print(person.get_age())
 # person.set_age(-10)  # This will raise an error.
 # print(person.get_age())
-print(person.__dict__) 
-    
+print(person.__dict__)
