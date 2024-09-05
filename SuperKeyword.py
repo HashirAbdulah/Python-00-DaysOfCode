@@ -22,6 +22,6 @@ def getInput():
 
 name, age, grade = getInput()
 st1 = Student(name, age, grade)
-print(st1.name)
-print(st1.age)
-print(st1.grade)
+print("Name:",st1.name)
+print("Age:",st1.age)
+print("Grade:",st1.grade)
