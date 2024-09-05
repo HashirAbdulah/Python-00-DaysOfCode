@@ -1,6 +1,3 @@
-from typing import Any
-
-
 class Shop:
     def __init__(self, sales, expenditure):
         self.sales = sales
