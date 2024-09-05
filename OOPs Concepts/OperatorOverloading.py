@@ -1,6 +1,6 @@
 # Operator Overloading means giving extended meaning beyond their predefined operational meaning. For example operator + is used to add two integers as well as join two strings and merge two lists. It is achievable because ‘+’ operator is overloaded by int class and str class. You might have noticed that the same built-in operator or function shows different behavior for objects of different classes, this is called Operator Overloading. 
 
-# Operator overloading is used for adding the objects/instances of the class
+# Operator overloading is used for operations on the objects/instances of the class
 class Vector:
     def __init__(self, i, j, k):
         self.i = i
