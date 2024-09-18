@@ -3,6 +3,7 @@
 
 import threading as t
 import time
+from concurrent.futures import ThreadPoolExecutor
 def Square(n):
     time.sleep(n)
     print(f"Square of {n} is {n*n}")
@@ -22,5 +23,18 @@ t1.join()
 t2.join()
 t3.join()
 t4.join()
+
+print("All threads are completed")
+
+
+# Using ThreadPoolExecutor for concurrent execution
+
+def square(n):
+    time.sleep(n)
+    print(f"Square of {n} is {n*n}")
+
+with ThreadPoolExecutor() as executor:
+    l = [4, 2, 7, 9]
+    executor.map(square, l)
 
 print("All threads are completed")
